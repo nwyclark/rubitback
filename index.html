@@ -1,6 +1,13 @@
-<title>DIHYLAN ATTACK</title>
+<title>DIHYLAN ATTACK</title>L
+ {MOoo
     <center>
         <h1>DIHYLAN ATTACK</h1>
-        <p> This dylan character is freaking mad!!!!</p>
+        <p id="blink"> This dylan character is freaking mad!!!!</p>
         <img src="dihylan.jpg">
+        <script type="text/javascript">
+            var blink = document.getElementById('blink');
+            setInterval(function() {
+                blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+            }, 300);
+        </script>
     </center>
